@@ -1,1 +1,68 @@
 //所有模块属性和统一效果属性 ef-
+// animation
+.fx-ani-ease(@sec:0.2s){
+		-webkit-transition: all @sec ease-out;
+		-moz-transition: all @sec ease-out;
+		-ms-transition: all @sec ease-out;
+		-o-transition: all @sec ease-out;
+	}
+.fx-ani-delay( @ms:100ms){
+		-webkit-transition-delay: @ms;
+		-moz-transition-delay: @ms;
+		transition-delay: @ms;
+	}
+
+// border
+	.fx-border-ori (@arguements){
+		-moz-box-shadow: @arguements;
+		-webkit-box-shadow: @arguements;
+		box-shadow: @arguements;
+	}
+	.fx-border (@color: @clr-bdr){
+		.fx-border-ori(inset 0px 0px 0px 1px @color);
+	}
+	.fx-border-b (@color: @clr-bdr){
+		.fx-border-ori(inset 0px -1px 0px 0px @color);
+	}
+	.fx-border-l (@color: @clr-bdr){
+		.fx-border-ori(inset 1px 0px 0px 0px @color);
+	}
+	.fx-border-none(){
+		-webkit-appearance: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+// shadow
+	.fx-shadow (@x: 0, @y: 1px, @blur: 3px, @color: @clr-shadow) {
+		box-shadow: @arguments;
+		-moz-box-shadow: @arguments;
+		-webkit-box-shadow: @arguments;
+	}
+
+// redius
+	.fx-radius (@radius: 3px) {
+		border-radius: @radius;
+		-webkit-border-radius: @radius;
+		-moz-border-radius: @radius;
+	}
+
+// select
+	.fx-unselectable() {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+// filter
+	.filter (@arguements) {
+		-webkit-filter: @arguements;
+		-moz-filter: @arguements;
+		-ms-filter: @arguements;
+		-o-filter: @arguements;
+		filter: @arguements;
+	}

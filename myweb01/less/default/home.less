@@ -17,14 +17,20 @@ body{
 	background: url(../img/home_bg.jpg ) no-repeat center fixed;
 	background-size: cover;
 	color: #fff;
-	-webkit-font-smoothing: antialiased;
 	.fx-ani-ease;
 	
+}
+.call_me{
+	width: 100%;
+	max-width: 1240px;
+	margin: auto;
+	position: relative;
 }
 .home_text{
 	font-size: 1em;
 	opacity: 0;
 	color: #fff;
+	display: none;
 }
 .logo{
 	position: absolute;
@@ -54,17 +60,24 @@ body{
 	//padding: 7px;
 	//margin-right: 28px;
 	position: absolute;
-	top: 48px;
-	right: 28px;
+	top: @spc-xl;
+	right: @spc-l;
+	z-index: 100;
 	cursor: pointer;
+	opacity: 0.8;
 	.fx-ani-ease;
 	&:hover{
 		.fx-ani-ease;
-		opacity: 0.5;
+		opacity: 1;
 	}
 	&:active{
 		.fx-ani-ease;
-		opacity: 1;
+		opacity: 0.5;
+	}
+	@media (max-width: @display-w-mob) {
+		bottom: 0;
+		// right: 50%;
+		// margin-right: -7px;
 	}
 }
 
@@ -79,3 +92,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	}
 
 }
+
+
+
+
+
+
+
+

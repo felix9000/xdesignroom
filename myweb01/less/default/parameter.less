@@ -1,7 +1,69 @@
 //所有样式统一参数值
-.fx-ani-ease(@sec:0.2s){
-		-webkit-transition: all @sec ease-out;
-		-moz-transition: all @sec ease-out;
-		-ms-transition: all @sec ease-out;
-		-o-transition: all @sec ease-out;
-	}
+/* color */
+	// base
+	@clr-ink: 		hsl(0, 0, 30%);
+	@clr-paper: 	hsl(0, 0, 100%);
+	@clr-gray: 		hsl(0, 0, 60%);
+	@clr-green: 	#23D9B0; // old hsl(153, 100%, 50%);
+	@clr-blue: 		#00A2FF; // old hsl(207, 100%, 50%);
+	@clr-yellow: 	hsl(52, 100%, 50%);
+	@clr-red: 	hsl(17, 100%, 50%);
+	// lighten
+	@clr-ink-lit: 		lighten(@clr-ink, 10%);
+	@clr-paper-lit: 	lighten(@clr-paper, 4%);
+	@clr-gray-lit: 		lighten(@clr-gray, 10%);
+	@clr-green-lit: 	lighten(@clr-green, 10%);
+	@clr-blue-lit: 		lighten(@clr-blue, 10%);
+	@clr-yellow-lit: 	lighten(@clr-yellow, 10%);
+	@clr-red-lit: 	lighten(@clr-red, 10%);
+	// darken
+	@clr-ink-drk: 		darken(@clr-ink, 30%);
+	@clr-paper-drk: 	darken(@clr-paper, 3%);
+	@clr-gray-drk: 		darken(@clr-gray, 10%);
+	@clr-green-drk: 	darken(@clr-green, 25%);
+	@clr-blue-drk: 		darken(@clr-blue, 10%);
+	@clr-yellow-drk: 	darken(@clr-yellow, 10%);
+	@clr-red-drk: 	darken(@clr-red, 10%);
+	// shadow
+	@clr-shadow: 		fade(@clr-ink-drk, 25%);
+	// border
+	@clr-bdr: 			@clr-gray-lit;
+	@clr-bdr-drk: 		@clr-ink;
+
+/* spacing */
+	// base
+	@spc-base: 	56px;
+	@spc-ratio: 2;
+	// size
+	@spc-xl: 	@spc-base;
+	@spc-l: 	@spc-xl/@spc-ratio;
+	@spc-m: 	@spc-l/@spc-ratio;
+	@spc-s: 	@spc-m/@spc-ratio;
+
+/* fontsize */
+	@ftz-s:  10px;
+	@ftz-m:  14px;
+	@ftz-l:  24px;
+	@ftz-xl: 36px;
+
+/* screen & popup & content */
+	//mob-mini
+	@content-w-default:  304px;
+	@popup-w-default: 	 100%;
+	//mob
+	@display-w-mob: 	 480px;
+	@popup-w-mob: 		 (@display-w-mob - @spc-xl);
+	@content-w-mob: 	 (@display-w-mob - @spc-xl*2);
+	//pad
+	@display-w-pad: 	 768px;
+	@popup-w-pad: 		 (@display-w-pad - @spc-xl*2);
+	@content-w-pad: 	 (@display-w-pad - @spc-xl*4);
+	//desk
+	@display-w-desk: 	 1024px;
+	@popup-w-desk: 		 (@display-w-desk - @spc-xl*2);
+	@content-w-desk: 	 (@display-w-desk - @spc-xl*4);
+	//max
+	@display-w-max: 	 1440px;
+
+/* btn */
+	@width-btn-min : 120px;

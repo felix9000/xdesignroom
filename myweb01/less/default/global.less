@@ -1,12 +1,112 @@
 //全局样式
+*{
+	color: @clr-ink;
+	font-size: @ftz-m;
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	line-height: 2;
+	font-family:
+		'思源黑体CN',
+		'Source Han Sans',
+		AvenirNext-Regular,
+		'proxima-nova',
+		'Hiragino Sans GB',
+		'Microsoft YaHei',
+		'WenQuanYi Micro Hei',
+		'Open Sans',
+		'Helvetica Neue',
+		Arial,sans-serif;
+}
 body{
 	font-size: 63%;
-	-webkit-font-smoothing: antialiased;
 }
 ::selection{
 	color: #fff;
 	background:#4b4b4b;
 	text-shadow:none;
+}
+p{
+	font-size: @ftz-m;
+	line-height: 2;
+	padding: @spc-s 0;
+}
+a{
+	color: @clr-ink;
+	text-decoration: none;
+	.fx-ani-ease;
+}
+li{
+	list-fx-position: outside;
+	text-align: -webkit-match-parent;
+}
+code{
+	font-family: monospace, menlo;
+}
+q{
+	quotes: "「" "」";
+}
+b{
+	font-weight: bold;
+}
+h1{
+	font-size: @ftz-xl;
+}
+h2{
+	font-size: @ftz-l;
+}
+h3{
+	font-size: @ftz-m;
+	font-weight: bold;
+}
+header{
+	width: 100%;
+	max-width: 1240px;
+	margin: auto;
+	padding: @spc-m @spc-m;
+	background: @clr-ink-drk;
+	a{
+		color: @clr-gray-lit;
+		margin-right: @spc-m;
+		cursor: pointer;
+		//-webkit-font-smoothing:subpixel-antialiased;
+		font-family:
+		'思源黑体CN',
+		'Source Han Sans',
+		'Hiragino Sans GB',
+		'Microsoft YaHei',
+		Arial,sans-serif;
+		font-weight: 600;
+		&:hover{
+			color: @clr-paper;
+		}
+	}
+
+}
+.top_menu{
+	float: right;
+		
+}
+
+.logo_font{
+	float: left;
+	//width: @spc-l*5;
+	span{
+		//margin-left: 10%;
+		font-size: @spc-s*3;
+		font-family: brlnsdb !important;
+		color: @clr-gray-lit;
+		line-height: 1;
+
+		//padding-right: @spc-s;
+		//width: @spc-l*3;
+		height: auto;
+		display: inline-block;
+		text-align: left;
+	}
+}	
+@font-face{
+	font-family: brlnsdb;
+	src:url("../font/brlnsdb.ttf") format('truetype');
 }
 footer{
 	width: 100%;
@@ -16,11 +116,51 @@ footer{
 	list-style: none;
 	border-top: 1px solid #4d4d4d;
 	font-size: 12px;
-	a{color: #fff;}
+	a{color: @clr-paper;}
+	.content{
+		width: 100%;
+		max-width: 1240px;
+		margin: auto;
+	}
 }
 .left{
 	float: left;
 }
 .right{
 	float: right
+}
+@media (max-width: @display-w-mob) {
+    .logo_font{
+		float: none;
+		text-align: center;
+		width: 100%;
+		span{
+			//margin-left: 10%;
+			font-size: @spc-s*3;
+			font-family: brlnsdb !important;
+			color: @clr-gray-lit;
+			line-height: 1;
+			//padding-right: @spc-s;
+			//width: @spc-l*3;
+			height: auto;
+			display: inline-block;
+			text-align: left;
+		}
+	}	
+	.top_menu{
+		float: none;
+		// width: @spc-l;
+		margin: auto;
+		text-align: center;
+		margin-top:0px;
+		// display: none;
+		.fx-ani-ease;
+		height: 0px;
+		overflow: hidden;
+		a{
+			display: inline-block;
+			width: 100%;
+		}
+		
+	}
 }
