@@ -61,6 +61,7 @@ h3{
 header{
 	width: 100%;
 	max-width: 1240px;
+	overflow: hidden;
 	margin: auto;
 	padding: @spc-m @spc-m;
 	background: @clr-ink-drk;
@@ -118,6 +119,7 @@ footer{
 	list-style: none;
 	border-top: 1px solid #4d4d4d;
 	font-size: 12px;
+	background: @clr-ink-drk;
 	a{color: @clr-paper;}
 	.content{
 		width: 100%;
@@ -130,6 +132,26 @@ footer{
 }
 .right{
 	float: right
+}
+.wait{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	background: @clr-ink-drk;
+	padding-top: 50px;
+	p{
+	line-height:1;
+	color: @clr-paper;
+		a{
+			color: @clr-gray-lit;
+			border-bottom: 1px solid  @clr-ink;
+			&:hover{
+				color: @clr-paper-drk;
+				border-bottom: 1px solid  @clr-gray;
+			}
+		}
+	}
 }
 .down_arow{
 	.fx-ani-ease;
