@@ -289,11 +289,7 @@ footer .content {
     display: inline-block;
     width: 100%;
   }
-  .header_arow {
-    display: block;
-    text-align: center;
-  }
-  .header_arow img {
+  .down_arow {
     animation: opacity_ani 3s;
     -moz-animation: opacity_ani 3s;
     /* Firefox */
@@ -302,6 +298,13 @@ footer .content {
     -o-animation: opacity_ani 3s;
     /* Opera */
     -webkit-animation-iteration-count: infinite;
+  }
+  .header_arow {
+    display: block;
+    text-align: center;
+  }
+  .header_arow img {
+    opacity: 0.8;
     cursor: pointer;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
