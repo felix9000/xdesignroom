@@ -86,7 +86,9 @@ header{
 	float: right;
 		
 }
-
+.header_arow{
+		display: none;
+}
 .logo_font{
 	float: left;
 	//width: @spc-l*5;
@@ -129,6 +131,17 @@ footer{
 .right{
 	float: right
 }
+.down_arow{
+	.fx-ani-ease;
+}
+.up_arow{
+	cursor: pointer;
+	.fx-ani-ease;
+	-moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 @media (max-width: @display-w-mob) {
     .logo_font{
 		float: none;
@@ -152,7 +165,7 @@ footer{
 		// width: @spc-l;
 		margin: auto;
 		text-align: center;
-		margin-top:0px;
+		margin-top:20px;
 		// display: none;
 		.fx-ani-ease;
 		height: 0px;
@@ -162,5 +175,20 @@ footer{
 			width: 100%;
 		}
 		
+	}
+	.header_arow{
+		display: block;
+		text-align: center;
+		
+		img{
+			//opacity: 0.8;
+			.fx-ani-opacity;
+			cursor:pointer;
+			.fx-ani-ease;
+			&:hover{
+				.fx-ani-ease;
+				opacity: 1;
+			}
+		}
 	}
 }

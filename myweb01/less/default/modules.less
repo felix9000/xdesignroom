@@ -11,7 +11,39 @@
 		-moz-transition-delay: @ms;
 		transition-delay: @ms;
 	}
+@keyframes opacity_ani
+{
+0%   {opacity: 0.6}
+50%  {opacity: 1}
+100% {opacity: 0.6}
+}
+@-moz-keyframes opacity_ani
+{
+0%   {opacity: 0.6}
+50%  {opacity: 1}
+100% {opacity: 0.6}
+}
 
+@-webkit-keyframes opacity_ani
+{
+0%   {opacity: 0.6}
+50%  {opacity: 1}
+100% {opacity: 0.6}
+}
+
+@-o-keyframes opacity_ani
+{
+0%   {opacity: 0.6}
+50%  {opacity: 1}
+100% {opacity: 0.6}
+}
+.fx-ani-opacity( @s:3s){
+animation: opacity_ani @s;
+-moz-animation: opacity_ani @s;	/* Firefox */
+-webkit-animation: opacity_ani @s;	/* Safari 和 Chrome */
+-o-animation: opacity_ani @s;	/* Opera */
+-webkit-animation-iteration-count: infinite;
+}
 // border
 	.fx-border-ori (@arguements){
 		-moz-box-shadow: @arguements;

@@ -1,8 +1,22 @@
+//头部导航收缩
 $(document).ready(function(){
-	$('.logo').mouseover(function() {
+	$('.header_arow').click(function(){
+		if($(this).children('img').hasClass('down_arow')){
+			$('.header_arow').children('img').removeClass('down_arow').addClass('up_arow');
+			$('.top_menu').css({'height':'100px'});
+		}else{
+			$('.header_arow').children('img').removeClass('up_arow').addClass('down_arow');
+			$('.top_menu').css({'height':'0px'});
+		}
+	});
+});
+
+//首页点logo背景变亮
+$(document).ready(function(){
+	$('.logo').mouseover(function(){
 		$('.wap').addClass('opactiy_ease');
 		});
-	$('.logo').mouseout(function() {
+	$('.logo').mouseout(function(){
 		$('.wap').removeClass('opactiy_ease');
 		});
 });

@@ -199,6 +199,9 @@ header a:hover {
 .top_menu {
   float: right;
 }
+.header_arow {
+  display: none;
+}
 .logo_font {
   float: left;
 }
@@ -238,6 +241,23 @@ footer .content {
 .right {
   float: right;
 }
+.down_arow {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+.up_arow {
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
 @media (max-width: 480px) {
   .logo_font {
     float: none;
@@ -257,7 +277,7 @@ footer .content {
     float: none;
     margin: auto;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 20px;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
@@ -268,6 +288,76 @@ footer .content {
   .top_menu a {
     display: inline-block;
     width: 100%;
+  }
+  .header_arow {
+    display: block;
+    text-align: center;
+  }
+  .header_arow img {
+    animation: opacity_ani 3s;
+    -moz-animation: opacity_ani 3s;
+    /* Firefox */
+    -webkit-animation: opacity_ani 3s;
+    /* Safari 和 Chrome */
+    -o-animation: opacity_ani 3s;
+    /* Opera */
+    -webkit-animation-iteration-count: infinite;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+  }
+  .header_arow img:hover {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    opacity: 1;
+  }
+}
+@keyframes opacity_ani {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+@-moz-keyframes opacity_ani {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+@-webkit-keyframes opacity_ani {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+@-o-keyframes opacity_ani {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
   }
 }
 .wap {
