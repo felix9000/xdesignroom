@@ -277,7 +277,7 @@ footer .content {
     float: none;
     margin: auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
@@ -390,6 +390,10 @@ body {
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
+}
+header {
+  position: relative;
+  z-index: 101;
 }
 .call_me {
   width: 100%;
