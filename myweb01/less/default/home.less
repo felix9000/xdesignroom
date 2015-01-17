@@ -23,6 +23,7 @@ body{
 header{
 	position: relative;
 	z-index: 101;
+	width: 100%;
 
 }
 .call_me{
@@ -66,6 +67,33 @@ header{
 	//margin-right: 28px;
 	position: absolute;
 	top: 0;
+	right: @spc-l;
+	z-index: 100;
+	cursor: pointer;
+	opacity: 0.8;
+	.fx-ani-ease;
+	&:hover{
+		.fx-ani-ease;
+		opacity: 1;
+	}
+	&:active{
+		.fx-ani-ease;
+		opacity: 0.5;
+	}
+	@media (max-width: @display-w-mob) {
+		bottom: 0;
+		// right: 50%;
+		// margin-right: -7px;
+	}
+}
+
+.email_icon{
+	//height: 50px;
+	display: inline-block;
+	//padding: 7px;
+	//margin-right: 28px;
+	position: absolute;
+	top: 30px;
 	right: @spc-l;
 	z-index: 100;
 	cursor: pointer;

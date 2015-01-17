@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="28px"
+	 viewBox="0 0 30 28" enable-background="new 0 0 30 28" xml:space="preserve">
+<title>Fill 1</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M28.75,20.417c0,4.05-3.283,7.333-7.333,7.333H8.583c-4.05,0-7.333-3.283-7.333-7.333V7.583
+			c0-4.05,3.283-7.333,7.333-7.333h12.833c4.05,0,7.333,3.283,7.333,7.333V20.417z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<path fill="#F2F2F2" d="M27.3,3.219c-1.336-1.798-3.47-2.969-5.883-2.969H8.583c-2.552,0-4.798,1.305-6.111,3.283l12.513,8.418
+			L27.3,3.219z"/>
+		<path fill="#F2F2F2" d="M15.015,14.382L1.597,5.355C1.373,6.058,1.25,6.806,1.25,7.583l-0.114,9.25
+			c0,4.05,3.283,7.333,7.333,7.333h12.833c4.05,0,7.333-3.283,7.333-7.333l0.114-9.25c0-0.916-0.176-1.79-0.483-2.599L15.015,14.382
+			z"/>
+	</g>
+</g>
+</svg>

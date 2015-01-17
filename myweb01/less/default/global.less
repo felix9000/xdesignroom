@@ -60,11 +60,14 @@ h3{
 }
 header{
 	width: 100%;
-	max-width: 1240px;
-	overflow: hidden;
-	margin: auto;
-	padding: @spc-m @spc-m;
 	background: @clr-ink-drk;
+	.header{
+		max-width: 1240px;
+		overflow: hidden;
+		margin: auto;
+		padding: @spc-m @spc-m;
+		background: @clr-ink-drk;
+	}
 	a{
 		color: @clr-gray-lit;
 		margin-right: @spc-m;
@@ -113,7 +116,7 @@ header{
 }
 footer{
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	padding: 14px;
 	list-style: none;
@@ -126,6 +129,21 @@ footer{
 		max-width: 1240px;
 		margin: auto;
 	}
+	.icp{font-size: 12px;}
+	@media (max-width: @display-w-mob) {
+		.content{
+				width: 100%;
+				// max-width: 1240px;
+				margin: auto;
+				text-align: center;
+				a{
+					display: block;
+				}
+				.right, .left{
+					float: none;
+				}
+			}
+	}
 }
 .left{
 	float: left;
@@ -137,6 +155,7 @@ footer{
 	text-align: center;
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 	position:absolute;
 	background: @clr-ink-drk;
 	padding-top: 50px;
