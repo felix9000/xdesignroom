@@ -245,6 +245,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/out\/css\/work.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/out\/css\/work.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/out\/img\/home_bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -351,6 +360,17 @@
 		"initialSize": 20703,
 		"inputAbbreviatedPath": "\/out\/img\/logo\/fd_logo@2x.png",
 		"outputAbbreviatedPath": "\/out\/img\/logo\/fd_logo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/out\/img\/work\/zyj1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98307,
+		"inputAbbreviatedPath": "\/out\/img\/work\/zyj1.jpg",
+		"outputAbbreviatedPath": "\/out\/img\/work\/zyj1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

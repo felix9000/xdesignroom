@@ -62,10 +62,11 @@ header{
 	width: 100%;
 	background: @clr-ink-drk;
 	.header{
-		max-width: 1240px;
+		// max-width: 1240px;
+		width: 100%;
 		overflow: hidden;
 		margin: auto;
-		padding: @spc-m @spc-m;
+		padding: @spc-m @spc-l;
 		background: @clr-ink-drk;
 	}
 	a{
@@ -116,18 +117,24 @@ header{
 }
 footer{
 	width: 100%;
-	position: fixed;
+	// position: fixed;
 	bottom: 0;
 	padding: 14px;
 	list-style: none;
 	border-top: 1px solid #4d4d4d;
 	font-size: 12px;
 	background: @clr-ink-drk;
+	clear: both;
 	a{color: @clr-paper;}
 	.content{
 		width: 100%;
-		max-width: 1240px;
+		display: inline-block;
+		// max-width: 1240px;
+		padding:0 @spc-l; 
+		padding-top: @spc-s;
 		margin: auto;
+	clear: both;
+
 	}
 	.icp{font-size: 12px;}
 	@media (max-width: @display-w-mob) {
@@ -136,6 +143,7 @@ footer{
 				// max-width: 1240px;
 				margin: auto;
 				text-align: center;
+				padding-top: @spc-m;
 				a{
 					display: block;
 				}
