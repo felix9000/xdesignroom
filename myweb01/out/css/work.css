@@ -439,18 +439,20 @@ footer {
   }
 }
 .work .zhuyujia {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
+  background-attachment: fixed;
+  background-position: fixed;
+}
+.work .xingwu {
+  background-attachment: fixed;
+  background-position: fixed;
 }
 .work .work_object {
   display: block;
   color: #808080;
-  padding: 28px;
+  padding: 56px 28px;
   width: 100%;
   margin: auto;
-  margin-top: 28px;
+  border-bottom: 1px solid #4d4d4d;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
