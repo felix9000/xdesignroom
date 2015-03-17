@@ -438,6 +438,24 @@ footer {
     padding-top: 28px;
   }
 }
+.work .zhuyujia {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+.work .zhuyujia:hover {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  background: url(../img/work/zyj1.jpg ) no-repeat center fixed;
+  background-size: cover;
+}
+.work .xingwu {
+  background-attachment: fixed;
+  background-position: fixed;
+}
 .work .work_object {
   display: block;
   color: #808080;
@@ -490,62 +508,6 @@ footer {
   .work .work_object span {
     font-size: 12px;
   }
-}
-.work .zhuoyujia {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-}
-.work .zhuoyujia:hover {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  background: url(../img/work/zyj1.jpg ) no-repeat center fixed;
-  background-size: cover;
-}
-.work .xingwu {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-}
-.work .xingwu:hover {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  background: url(../img/work/wx1.jpg ) no-repeat center fixed;
-  background-size: cover;
-}
-.work .leting {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-}
-.work .leting:hover {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  background: url(../img/work/fwc1.jpg ) no-repeat center fixed;
-  background-size: cover;
-}
-.work .menpiao {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-}
-.work .menpiao:hover {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  background: url(../img/work/jqmp1.jpg ) no-repeat center fixed;
-  background-size: cover;
 }
 .work .work_line {
   display: block;
