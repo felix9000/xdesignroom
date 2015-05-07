@@ -442,6 +442,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/out\/img\/work\/jqmp1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123302,
+		"inputAbbreviatedPath": "\/out\/img\/work\/jqmp1.jpg",
+		"outputAbbreviatedPath": "\/out\/img\/work\/jqmp1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/out\/img\/work\/wx1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -547,7 +558,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Felix Wang",
+"lastSavedByUser": "Felix",
 "manualImportLinks": {
 	},
 "projectAttributes": {
