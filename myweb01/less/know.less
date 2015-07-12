@@ -1,0 +1,282 @@
+@import "default/default";
+header{
+	background: rgba(0, 0, 0, 0); 
+	.header{
+		background: rgba(0, 0, 0, 0);
+
+	}
+}
+footer{
+	background: rgba(0, 0, 0, 0);
+	
+}
+.know_bg{
+	background-color: #1C1C1C;
+	//background: url(../img/work/zyj1.jpg ) no-repeat center fixed;
+	background-size: cover;
+	color: #fff;
+	.fx-ani-ease;
+}
+.know{
+	// padding: @spc-m;
+	// max-width: 1240px;
+	width: 100%;
+	margin: auto;
+	padding-top: @spc-l*3;
+	overflow: hidden;
+	@media (max-width: @display-w-mob){
+		padding-top: @spc-l;
+
+	}
+	.know_list{
+		width: 100%;
+		height: auto;
+		border-right: 1px #222222 solid;
+		float: left;
+		overflow: hidden;
+		.admin_header{
+			position: relative;
+			width: 35%;
+			max-width: 160px;
+			min-width: 50px;
+			margin: auto;
+			border-radius: 960px;
+			padding:3px;
+			border: 1px @clr-ink solid;
+			text-align: center;
+			
+			img{
+				border-radius: 960px;
+				display: block;
+
+				}
+			}
+			
+		}
+		.admin_name{
+			width: 80%;
+			max-width: 200px;
+			padding: @spc-s;
+			margin: auto;
+			text-align: center;
+			border-bottom: 1px solid #333;
+			p{
+				line-height: 28px;
+				color: @clr-paper-lit;
+			}
+		}
+		
+		.software{
+			width: 70%;
+			margin: @spc-l auto;
+			.sw_icon{
+				width: 90%;
+				max-width: 757px;
+				height: auto;
+				overflow: hidden;
+				padding: @spc-xl 0;
+				margin: auto;
+				position: relative;
+				text-align: center;
+				 .sw_icon_circle{
+					position: relative;
+					z-index: 1001;
+				 	width: 80px;
+				 	height: 80px;
+				 	overflow: hidden;
+				 	// padding: 52px;
+				 	margin:@spc-m; 
+				 	float: left;
+					border-radius: 1960px;
+					text-align: center;
+					border: 1px solid #333;
+					img{
+						display: block;
+						margin: auto;
+						position: absolute;
+						left: 50%;
+						top:50%;
+						margin-left:-15px; 
+						margin-top:-15px; 
+						z-index: 1000;
+					}
+					.icon_circle0{
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						z-index: 999;
+						border-radius: 1960px;
+						background: #1C1C1C;
+						transform:scale(0.8,0.8);
+					}
+					.icon_circle1_mask{
+						position: absolute;
+						width: 50%;
+						height: 100%;
+						z-index: 996;
+						left:50%;
+						opacity: 1;
+						overflow: hidden;
+						 transform-origin: 0% 50%;
+					}
+					.icon_circle1{
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						background: #1C1C1C;
+						z-index: 995;
+						left:0%;
+						opacity: 0;
+						  animation: rrotatehalf 2s infinite linear;
+						  -webkit-animation: rotatehalf 3s infinite linear;
+						 transform-origin: 0% 50%;
+						 animation-iteration-count:1;
+						-webkit-animation-iteration-count:1;
+						
+						}
+					.icon_circle2_mask{
+						position: absolute;
+						width: 50%;
+						height: 100%;
+						overflow: hidden;
+						z-index: 989;
+						top:0%;
+						transform-origin: 50% 0%;
+						}
+					.icon_circle2{
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						background: #1C1C1C;
+						z-index: 988;
+						top:0%;
+						opacity: 0;
+						  animation: rotate 2s infinite linear;
+						  -webkit-animation: rotate 3s infinite linear;
+						 transform-origin: 100% 50%;
+						 animation-iteration-count:1;
+						-webkit-animation-iteration-count:1;
+						
+						}
+					.icon_circle3{
+						position: absolute;
+						width: 50%;
+						height: 100%;
+						background: #434343;
+						z-index: 986;
+						left:50%;
+						transform-origin: 0% 50%;
+						}
+					.icon_circle4{
+						position: absolute;
+						width: 100%;
+						height: 50%;
+						background: #434343;
+						z-index: 987;
+						top:50%;
+						transform-origin: 50% 0%;
+						}
+						@keyframes rotatehalf {
+						  50% , 100% {
+						    transform: rotateZ(180deg);
+						    opacity: 1;
+						  }
+						}
+						@-webkit-keyframes rotatehalf {
+						  50% , 100% {
+						    transform: rotateZ(180deg);
+						    opacity: 1;
+						  }
+						}
+
+
+						@keyframes rotate {
+							0% , 50% {
+						    transform: rotateZ(0deg);
+						  }
+						  100% {
+						    transform: rotateZ(180deg);
+						    opacity: 1;
+						  }
+						}
+						@-webkit-keyframes rotate {
+							0% , 50% {
+						    transform: rotateZ(0deg);
+						  }
+						  100% {
+						    transform: rotateZ(180deg);
+						    opacity: 1;
+						  }
+						}
+				 }
+				 .sk_icon{
+				 	
+					.icon_circle4{
+						transform:rotateZ(60deg);
+						}
+				}
+				.ps_icon{
+					
+					.icon_circle4{
+						transform:rotateZ(75deg);
+						}
+					
+				}
+				.ai_icon{
+					
+					.icon_circle4{
+						transform:rotateZ(65deg);
+						}
+					
+				}
+				.ae_icon{
+					
+					.icon_circle4{
+						transform:rotateZ(-60deg);
+						}
+					
+				}
+				.h5_icon{
+					img{
+						margin-top:-20px; 
+					}
+					
+					.icon_circle4{
+						transform:rotateZ(30deg);
+						}
+					
+				}
+				.css_icon{
+					img{
+						margin-top:-20px; 
+					}
+					.icon_circle4{
+						transform:rotateZ(45deg);
+						}
+					
+				}
+				.js_icon{
+					img{
+						margin-top:-20px; 
+					}
+					.icon_circle4{
+						transform:rotateZ(-45deg);
+						}
+					
+				}
+			}
+		}
+	}
+	
+		.know_line{
+			display: block;
+			width: 100%;
+			height: 2px;
+			border-bottom: 1px solid @clr-ink;
+			// margin-bottom: @spc-l;
+		}
+
+
+
+
+
