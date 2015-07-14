@@ -118,6 +118,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/out\/views\/header.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/out\/views\/header.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/out\/views\/home.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/out\/views\/home.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/wait.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -372,6 +390,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/out\/img\/canonicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9307,
+		"inputAbbreviatedPath": "\/out\/img\/canonicon.png",
+		"outputAbbreviatedPath": "\/out\/img\/canonicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/out\/img\/csslogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -515,6 +544,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/out\/img\/macicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2541,
+		"inputAbbreviatedPath": "\/out\/img\/macicon.png",
+		"outputAbbreviatedPath": "\/out\/img\/macicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/out\/img\/pslogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -533,6 +573,17 @@
 		"initialSize": 9198,
 		"inputAbbreviatedPath": "\/out\/img\/sketchlogo.png",
 		"outputAbbreviatedPath": "\/out\/img\/sketchlogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/out\/img\/wacomicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2764,
+		"inputAbbreviatedPath": "\/out\/img\/wacomicon.png",
+		"outputAbbreviatedPath": "\/out\/img\/wacomicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -570,13 +621,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/out\/img\/work\/jqmp1.jpg": {
+	"\/out\/img\/work\/ldwedingbg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 123302,
-		"inputAbbreviatedPath": "\/out\/img\/work\/jqmp1.jpg",
-		"outputAbbreviatedPath": "\/out\/img\/work\/jqmp1.jpg",
+		"initialSize": 112387,
+		"inputAbbreviatedPath": "\/out\/img\/work\/ldwedingbg.jpg",
+		"outputAbbreviatedPath": "\/out\/img\/work\/ldwedingbg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

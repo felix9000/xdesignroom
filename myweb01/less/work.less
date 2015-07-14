@@ -30,9 +30,12 @@ footer{
 	}
 	.work_list{
 		width: 20%;
-		height: 100vh;
+		height: 80vh;
 		border-right: 1px #222222 solid;
 		float: left;
+		@media (max-width: @display-w-mob) {
+		display: none;
+	}
 		.admin_header{
 			position: relative;
 			width: 35%;
@@ -132,7 +135,7 @@ footer{
 			margin:@spc-l auto;
 			padding: @spc-s @spc-m;
 			opacity: 0.3;
-			.fx-ani-ease;
+			.fx-ani-ease(0.5s);
 			&:hover{
 				opacity: 1;
 				.fx-ani-ease;
@@ -191,6 +194,9 @@ footer{
 		height: auto;
 		// display: none;
 		float: right;
+		@media (max-width: @display-w-mob) {
+		width: 100%;
+	}
 		.work_object{
 			// max-width: 1240px;
 			display: block;
@@ -273,6 +279,15 @@ footer{
 			&:hover{
 				.fx-ani-ease;
 				background: url(../img/work/jqmp1.jpg ) no-repeat center fixed;
+				background-size: cover;
+
+			}
+		}
+		.ldwedding{
+			.fx-ani-ease;
+			&:hover{
+				.fx-ani-ease;
+				background: url(../img/work/ldwedingbg.jpg ) no-repeat center fixed;
 				background-size: cover;
 
 			}

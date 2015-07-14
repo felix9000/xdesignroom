@@ -441,9 +441,14 @@ footer {
 }
 .work .work_list {
   width: 20%;
-  height: 100vh;
+  height: 80vh;
   border-right: 1px #222222 solid;
   float: left;
+}
+@media (max-width: 480px) {
+  .work .work_list {
+    display: none;
+  }
 }
 .work .work_list .admin_header {
   position: relative;
@@ -533,10 +538,10 @@ footer {
   margin: 28px auto;
   padding: 7px 14px;
   opacity: 0.3;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
 }
 .work .work_list .data:hover {
   opacity: 1;
@@ -597,6 +602,11 @@ footer {
   width: 80%;
   height: auto;
   float: right;
+}
+@media (max-width: 480px) {
+  .work .work_pro {
+    width: 100%;
+  }
 }
 .work .work_pro .work_object {
   display: block;
@@ -707,6 +717,20 @@ footer {
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   background: url(../img/work/jqmp1.jpg ) no-repeat center fixed;
+  background-size: cover;
+}
+.work .work_pro .ldwedding {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+.work .work_pro .ldwedding:hover {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  background: url(../img/work/ldwedingbg.jpg ) no-repeat center fixed;
   background-size: cover;
 }
 .work .work_pro .work_line {

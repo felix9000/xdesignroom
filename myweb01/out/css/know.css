@@ -460,6 +460,7 @@ footer {
 .know .know_list .admin_header img {
   border-radius: 960px;
   display: block;
+  opacity: 0.1;
 }
 .know .admin_name {
   width: 80%;
@@ -476,13 +477,18 @@ footer {
 .know .software {
   width: 70%;
   margin: 28px auto;
+  text-align: center;
+}
+.know .software h3 {
+  padding: 28px 0;
+  color: #333;
 }
 .know .software .sw_icon {
   width: 90%;
   max-width: 757px;
   height: auto;
   overflow: hidden;
-  padding: 56px 0;
+  padding: 28px 0;
   margin: auto;
   position: relative;
   text-align: center;
@@ -646,6 +652,33 @@ footer {
 }
 .know .software .sw_icon .js_icon .icon_circle4 {
   transform: rotateZ(-45deg);
+}
+.know .usefor {
+  width: 100%;
+  height: auto;
+  overflow: inherit;
+  padding: 28px 0;
+  text-align: center;
+}
+.know .usefor h3 {
+  padding: 28px 0;
+  color: #333;
+}
+.know .usefor .usefor_center {
+  width: 70%;
+  max-width: 680px;
+  height: auto;
+  margin: auto;
+  overflow: inherit;
+}
+.know .usefor .usefor_center div {
+  width: 33.3333%;
+  float: left;
+  padding: 14px;
+  text-align: center;
+}
+.know .usefor .usefor_center div p {
+  font-size: 12px;
 }
 .know_line {
   display: block;
